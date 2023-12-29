@@ -13,6 +13,6 @@
 
 @interface RCT_EXTERN_MODULE(PassKitAddToWalletButtonManager, RCTViewManager)
 
-RCT_EXPORT_VIEW_PROPERTY(onPress, RCTDirectEventBlock)
+RCT_EXPORT_VIEW_PROPERTY(onPress, RCTBubblingEventBlock)
 
 @end
